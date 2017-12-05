@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>VueJS</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="https://unpkg.com/vue"></script>
+  </head>
+  <body>
+    <div id="vue-app">
+      <p>
+        <a href v-bind:href="website">{{title}}</a>
+      </p>
+
+      <p>
+        <input type="text" v-bind:value="name" />
+      </p>
+
+      <p v-html="amazonlink">
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
